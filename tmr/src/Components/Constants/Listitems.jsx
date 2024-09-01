@@ -1,5 +1,4 @@
 // product list 
-import telephone from "../../assets/collection/telephone.jpeg"
 let data  = [
     {
         name:"Vintage Affair Telephone",

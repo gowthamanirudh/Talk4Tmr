@@ -4,9 +4,9 @@ return(
         {
         data.map((value)=>{
            return(
-            <div className="bg-[#F4F5F7]  w-[280px] h-[400px]   ">
-            <img src={value.productImage} className="w-[100%] object-cover"/>
-            <div className="p-5">
+            <div className="bg-[#F4F5F7]  w-[280px]  ">
+            <img src={value.productImage} className="w-[100%] h-[300px] object-cover object-center"/>
+            <div className="p-3">
             <div className="text-[#A5560D] inter text-[1.5rem] font-[600] mt-2">{value.name}</div>
             <div className="text-[#898989] inter text-[1rem] font-[500] poppins-regular mt-2">{value.description}</div>
             <div className="flex items-center gap-5 mt-2">
