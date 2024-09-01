@@ -11,7 +11,7 @@ export default function MainContent(){
                 <h1><b className="italic text-[#A5560D]">Rare</b> <b className="italic">finds</b></h1>
               
             </div>
-            <h1 className="text-4xl italic font-[700] ">Where History Meets Elegance</h1>
+            <h1 className="text-4xl italic font-[500] ">Where History Meets Elegance</h1>
         </div>
      </div>
     )
