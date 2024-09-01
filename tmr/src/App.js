@@ -9,18 +9,20 @@ import Item from './Components/ItemsList';
 import  data from "./Components/Constants/Listitems"
 function RootParent(){
    return(
+   
     <div className='flex'>
       <SideNav></SideNav>
       <Item data={data}></Item>
     </div>
+   
    )
 }
 function App() {
   return (
     <>
-     <NavBar/>
+     
     <BrowserRouter>
-   
+    <NavBar/>
       <Routes>
         <Route element={<MainContent></MainContent>} path='/'></Route>
         <Route element={<RootParent></RootParent>} path='/shop'></Route>
